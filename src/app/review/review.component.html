@@ -1,0 +1,5 @@
+<div>
+    <div *ngFor='let question of question_answers'>
+        {{question.questionid}}. {{question.answer ? "Answered" : "Not-Answered"}}
+    </div>
+</div>

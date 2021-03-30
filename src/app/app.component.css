@@ -1,0 +1,51 @@
+.head1{
+    font-size: 100px;
+    color:darkgray;
+    font-weight: bold;
+   }
+   .head2{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom:15px;
+   }
+    body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+   }
+   .menu{
+    position: sticky;
+    top: 0;
+    background-color:darkgray;
+    padding: 10px 0px 10px 0px;
+    color:grey;
+    margin: 0 auto;
+    overflow: hidden;
+   }
+   .menu a{
+    float :left;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   }
+   .menu-log{
+    right:auto;
+    float:right;
+   }
+   footer{
+    width:100%;
+    bottom :0px;
+    background-color: chocolate;
+    color: cyan;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .body_sec{
+   margin-left: 20px;
+   }

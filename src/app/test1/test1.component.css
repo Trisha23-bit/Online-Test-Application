@@ -1,0 +1,26 @@
+body{
+    background-image:url(../../assets/imagequiz/bq5.jpeg);
+    background-repeat:repeat;
+    background-position:center ;
+    background-attachment:fixed;
+    background-size:cover;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+
+} 
+
+.action-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+footer{
+    background-image:url(../../assets/imagequiz/bq5.jpeg);
+    background-repeat:repeat;
+    background-position:center ;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-bottom: 310px;
+}

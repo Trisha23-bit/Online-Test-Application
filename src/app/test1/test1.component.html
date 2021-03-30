@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+     <app-quiz-c *ngIf="submitted" [question_answers]="results"></app-quiz-c>
+     <app-review *ngIf="review && !submitted" [question_answers]="questions"></app-review>
+      <app-question *ngIf="!submitted && !review" [data]="selected_question" (onChange)="updateAnswer($event)"></app-question>
+     <div *ngIf="!submitted" class="action-buttons">
+         <div  *ngIf="!review">
+            <button type="button" *ngIf="this.selected_question_id > 1" class="btn btn-success" (click)="onBack()">
+              Previous
+            </button>
+          </div>
+          <div *ngIf="selected_question_id === questions.length && !review">
+            <button type="button" class="btn btn-success" (click)="onReview()">
+              Review
+            </button>
+          </div>
+          <div *ngIf="review">
+            <button type="button" class="btn btn-success" (click)="onGoBack()">
+              GoBack
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-success" (click)="onNext()">
+             {{ selected_question_id === questions.length ? "Submit" : "Next" }}
+            </button>
+          </div>
+      </div>
+<footer></footer>
+</body>
+
+</html>

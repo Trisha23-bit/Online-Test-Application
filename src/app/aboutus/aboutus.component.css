@@ -1,0 +1,18 @@
+p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 150px;
+    
+} 
+body{
+    background-image:url(../../assets/imagequiz/bq5.jpeg);
+    background-repeat:repeat;
+    background-position:center ;
+    background-attachment:fixed;
+    background-size:cover; 
+
+}
+

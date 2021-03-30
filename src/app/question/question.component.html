@@ -1,0 +1,18 @@
+<html>
+  <div class="question-container">
+    <h2>Question {{ data.questionid }}: {{ data.question }}</h2>
+    <body>
+      <div *ngFor="let option of data.options; let optionindex = index">
+        <div
+          class="question-option"
+          [ngClass]="{
+            'selected-option': data.answer === optionindex
+          }"
+          (click)="onSelect(optionindex)"
+        >
+          {{ option_map[optionindex] }}: {{ option }}
+        </div>
+      </div>
+    </body>
+  </div>
+</html>

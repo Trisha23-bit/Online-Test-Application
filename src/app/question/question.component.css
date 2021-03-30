@@ -1,0 +1,21 @@
+.question-option {
+    margin-top:20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.question-container{
+    margin:10px
+}
+
+.selected-option {
+    color: rgb(55, 138, 62);
+    font-weight:bold;
+}
+body{
+    background-image:url(../../assets/imagequiz/bq5.jpeg);
+    background-repeat:no-repeat;
+    background-position:center ;
+    background-attachment:fixed;
+    background-size:cover; 
+}
